@@ -3,7 +3,7 @@ idk why i did it, but i did it, and its good :)
 
 ## How to install
 ```
-bundle
+gem install ruby2d
 ```
 ## How to start
 ```
