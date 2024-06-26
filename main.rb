@@ -61,6 +61,8 @@ on :mouse_down do |event|
       value += 1
       image.width = 150
       image.height = 150
+      image.x = image.x + 3
+      image.y = image.y + 3
 
     elsif event.x >= profile.x && event.x <= (profile.x + profile.width) && event.y >= profile.y && event.y <= (profile.y + profile.height)
       menu.add
@@ -76,8 +78,10 @@ end
 on :mouse_up do |event|
   case event.button
   when :left
-    image.width = 155
-    image.height = 155
+    image.width = 156
+    image.height = 156
+    image.x = 114
+    image.y = 220
   end
 end
 
