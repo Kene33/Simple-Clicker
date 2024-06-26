@@ -38,14 +38,14 @@ profile = Image.new(
 
 
 menu = Square.new(
-  x: 35, y: 65,
+  x: 35, y: 66,
   size: 310,
   color: 'black',
   z: 3
 )
 stats = Text.new(
   "Name: #{name}",
-  x: 45, y: 75,
+  x: 45, y: 76,
   style: 'bold',
   size: 20,
   color: 'blue',
